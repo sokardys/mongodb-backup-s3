@@ -1,4 +1,4 @@
-FROM mongo
+FROM mongo:4
 
 # Install Python and Cron
 RUN apt-get update && apt-get -y install awscli cron
